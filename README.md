@@ -1,6 +1,6 @@
-# 🌾 Weather and Soil Index-Based Crop Insurance using Regression Analysis and EWM-TOPSIS
+# Weather and Soil Index-Based Crop Insurance using Regression Analysis and EWM-TOPSIS
 
-## 📝 Overview
+## Overview
 This repository contains the code and analysis for the research project, **"Weather and Soil Index Based Crop Insurance using Regression Analysis and EWM-TOPSIS"**.  
 The study proposes a novel weather and soil index-based crop insurance scheme for wheat in three Indian states: **Uttar Pradesh, West Bengal, and Bihar**.  
 
@@ -8,7 +8,7 @@ By integrating key weather and soil variables, the model develops **state-specif
 
 ---
 
-## ✨ Key Features
+## Key Features
 - **State-Specific Models**: Develops unique insurance contracts for West Bengal, Uttar Pradesh, and Bihar based on their specific agricultural risks.  
 - **Multi-Factor Index**: Incorporates rainfall, temperature, NPK consumption, and net irrigated area into a robust insurance index.  
 - **Hybrid Methodology**: Combines regression analysis (to identify key risk factors) with **EWM-TOPSIS** (to validate and assign objective weights).  
@@ -16,7 +16,7 @@ By integrating key weather and soil variables, the model develops **state-specif
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 1. **Data Collection & Preprocessing**  
    - Historical data (2005–2024) for wheat yield, rainfall, temperature, NPK consumption, and irrigated area.  
    - Wheat yields detrended using **robust regression (Bisquare & Huber)** to remove time influence.  
@@ -35,7 +35,7 @@ By integrating key weather and soil variables, the model develops **state-specif
 
 ---
 
-## 📊 Results
+## Results
 The analysis identified the most critical factors for each state:
 
 - **West Bengal**: Rainfall + Net Irrigated Area → PPR: **3.48%**  
@@ -44,7 +44,7 @@ The analysis identified the most critical factors for each state:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ````.
 ├── Code/             # Jupyter notebooks for analysis
@@ -67,7 +67,7 @@ The analysis identified the most critical factors for each state:
 ````
 ---
 
-## 🚀 Future Goals
+## Future Goals
 - Extend framework to **other crops & regions**.  
 - Integrate **real-time satellite and sensor data**.  
 - Use **ARIMA models** for forecasting risks.  
